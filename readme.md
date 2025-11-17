@@ -2,8 +2,7 @@
 
 ---
  
-This repo focuses on conditional generative model that **creates realistic industrial defects** (scratch, crack, hole, dent, etc.) on **clean MVTec images**.  
-The generator is a **FiLM-conditioned UNet**, and the discriminator is a **DINO ViT**, enabling both **local texture realism** and **global semantic consistency**.
+This repo focuses on conditional generative model that **creates realistic industrial defects** (scratch, crack, hole, dent, etc.) on **clean MVTec images**.   The generator is a **FiLM-conditioned UNet**, and the discriminator is a **DINO ViT**, enabling both **local texture realism** and **global semantic consistency**.
 
 ## Architecture
 
@@ -87,7 +86,7 @@ Training includes:
 
 ---
 
-## 🔍 Inference
+## Inference
 
 Generate defect on a clean image:
 
@@ -109,9 +108,6 @@ style = "scratch" | "crack" | "hole" | ...
 ---
 
 ## Results
-
-## 📊 Sample Results
-
 <table align="center">
   <tr>
     <th>Clean Image</th>
